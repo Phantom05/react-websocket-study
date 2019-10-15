@@ -1,15 +1,21 @@
 {
   "name": "react-blank-test",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cross-env": "^6.0.3",
+    "immer": "^4.0.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

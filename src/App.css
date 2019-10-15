@@ -20,3 +20,14 @@
 .App-link {
   color: #09d3ac;
 }
+
+.testButton{
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: 0;
+  cursor: pointer;
+  margin: 0 3px;
+}
+.testButton:hover{
+  background: rgba(255,255,255,.9);
+}
